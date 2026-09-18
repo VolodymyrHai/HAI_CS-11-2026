@@ -1,0 +1,138 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(18, 75px);
+    grid-auto-rows: 75px;
+    gap: 4px;
+}
+
+.container{
+    background-color: rgb(74, 83, 255);
+    color: white;
+    border-radius: 2.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 10px;
+    text-align: center;
+}
+
+.symbol{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.number{
+    left: 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.helium {
+    grid-column: 18;
+}
+
+.thirteenth {
+    grid-column: 13;
+}
+
+.star {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin-top: 25px;
+    align-items: center;
+    line-height: 1;
+}
+
+.numbers {
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    line-height: 1;
+}
+
+.yellow {
+    background-color: rgb(255, 162, 0);
+}
+
+.red {
+    background-color: rgb(228, 47, 47);
+}
+
+.star1 {
+background-color: rgb(255, 82, 111);
+}
+
+.star2 {
+background-color: rgb(212, 57, 0);
+}
+
+.green {
+    background-color: rgb(29, 138, 12);
+}
+
+.lightgreen {
+    background-color: rgb(127, 177, 35);
+}
+
+.gray {
+    background-color: gray;
+}
+
+.lightblue {
+    background-color: rgb(55, 148, 255);
+}
+
+.darkblue {
+    background-color: rgb(67, 67, 241);
+}
+
+.cyan {
+    background: rgb(13, 167, 139);
+}
+
+.landa {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 158px;
+    grid-template-columns: repeat(15, 75px);
+    grid-auto-rows: 75px;
+    gap: 4px;
+}
+
+.lantanoyidy {
+    color: white;
+    border-radius: 2.5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 82, 111);
+}
+
+
+.aanda {
+    display: grid;
+    margin-top: 99px;
+    margin-left: 79px;
+    grid-template-columns: repeat(15, 75px);
+    grid-auto-rows: 75px;
+    gap: 4px;
+}
+
+.actinoidy {
+    color: white;
+    border-radius: 2.5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(217, 75, 50);
+}
