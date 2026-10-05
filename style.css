@@ -6,7 +6,7 @@ body {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 8px 20px;
+    padding: 8px 20px 0;
     font-family: "Times New Roman", serif;
     overflow-x: hidden;
 }
@@ -152,7 +152,7 @@ body {
     width: 700px;
     max-width: 100%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -205,8 +205,8 @@ body {
     width: 700px;
     max-width: 100%;
     height: 420px;
-    margin: 70px auto;
-    gap: 0;
+    margin: 70px auto 40px;
+    gap: 15px;
 }
 
 .keys {
