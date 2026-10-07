@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 280px 150px 280px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    grid-column: 2 / 3;
+}
+
+.img1 {
+    grid-row: 1 / 2;
+}
+
+.img2 {
+    grid-row: 2 / 3;
+}
+
+.img3 {
+    grid-row: 3 / 4;
+}
+
+.card {
+    background-color: #f2f2f2;
+    height: 180px;
+    width: 280px;
+    border-radius: 30px;
+    display: grid;
+    align-content: center;
+    padding: 25px;
+}
+
+.card-right {
+    grid-column: 3 / 4;
+    justify-items: start;
+    text-align: left;
+}
+
+.card-left {
+    grid-column: 1 / 2;
+    justify-items: end;
+    text-align: right;
+}
+
+.row1 {
+    grid-row: 1 / 2;
+}
+
+.row2 {
+    grid-row: 2 / 3;
+}
+
+.row3 {
+    grid-row: 3 / 4;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 11px;
+    color: #a0a0a0;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.background2, .reverted_background2 {
+    display: inline-block;
+    background-color: #1fe053;
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
