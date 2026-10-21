@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url("./FFTablet_1100x.progressive.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 32px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.the_main_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.flex_text {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.flex_img {
+    width: 38px;
+    height: 38px;
+    margin-left: 25px;
+}
+
+.flex2 button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 18px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.flex2 button:hover {
+    background: white;
+    color: black;
+}
+
+.forefathers {
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    font-size: 210px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 45px;
+    white-space: nowrap;
+}
+
+.description {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.star {
+    padding: 0 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    padding: 100px 30px 0;
+    gap: 30px;
+}
+
+.about_us {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.35;
+    width: 373px;
+}
+
+.container_circle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.letter {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 0;
+    height: 0;
+}
+
+.letter span {
+    position: absolute;
+    left: -4px;
+    bottom: 0;
+    width: 10px;
+    height: 65px;
+    font-size: 10px;
+    text-align: center;
+    transform-origin: bottom center;
+}
+
+.N  { transform: rotate(0deg); }
+.E  { transform: rotate(21deg); }
+.W  { transform: rotate(42deg); }
+.D  { transform: rotate(63deg); }
+.E2 { transform: rotate(84deg); }
+.S  { transform: rotate(105deg); }
+.I  { transform: rotate(126deg); }
+.G  { transform: rotate(147deg); }
+.N2 { transform: rotate(168deg); }
+.F  { transform: rotate(189deg); }
+.R  { transform: rotate(210deg); }
+.O  { transform: rotate(231deg); }
+.N3 { transform: rotate(252deg); }
+.T  { transform: rotate(273deg); }
+.I2 { transform: rotate(294deg); }
+.E3 { transform: rotate(315deg); }
+.R2 { transform: rotate(336deg); }
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.stamp-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    width: 220px;
+    height: auto;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        padding: 32px 30px;
+    }
+
+    .the_main_flex {
+        justify-content: flex-end;
+    }
+
+    .flex {
+        gap: 25px;
+    }
+
+    .flex_img {
+        display: none;
+    }
+
+    .flex2 {
+        display: none;
+    }
+
+    .forefathers {
+        display: none;
+    }
+
+    .description {
+        margin-top: 45px;
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+        margin-top: auto;
+    }
+
+    .about_us {
+        width: 100%;
+        max-width: 600px;
+        font-size: 28px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .arrow-circle {
+        display: none;
+    }
+
+    .stamp-box {
+        margin-top: 0;
+    }
+
+    .img2 {
+        width: 210px;
+    }
+}
