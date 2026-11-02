@@ -248,7 +248,7 @@ body {
 }
 
 .bread-grid {
-    width: 1000px;
+    width: clamp(600px, 80%, 1000px);
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -561,8 +561,6 @@ body {
 .footer {
     color: white;
     background-color: rgba(51, 51, 51);
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
     text-align: center;
 }
 
