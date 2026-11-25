@@ -1,0 +1,33 @@
+.footer_bg {
+    background-color: #6c8d90;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.footer_img {
+    display: flex;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+    padding-top: 25px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    color: white;
+    margin: 20px auto;
+}
+
+.footer_heading {
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.details {
+    font-size: 13px;
+}

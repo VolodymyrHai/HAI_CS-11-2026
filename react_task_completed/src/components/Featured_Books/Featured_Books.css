@@ -1,0 +1,34 @@
+.main_featured_books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.featured_books {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 50px 20px;
+}
+
+.simple_grace {
+    width: 450px;
+    height: 450px;
+    margin: 50px 50px 0 0;
+}
+
+.the_quiet_season {
+    font-size: 20px;
+    margin: 20px 50px;
+}
+
+.by_maya {
+    font-size: 15px;
+    margin: 0 50px;
+}
+
+.description_featured_books {
+    width: 400px;
+    margin: 20px 50px;
+    line-height: 1.7;
+}

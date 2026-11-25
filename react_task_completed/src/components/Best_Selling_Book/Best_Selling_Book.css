@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.heading {
+    font-size: 25px;
+    white-space: nowrap;
+    margin: 150px 0 0 150px;
+}
+
+.best_selling_book {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 150px;
+}
+
+.under_best_selling_book {
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 150px;
+}
+
+.button_view_more {
+    border: none;
+    background-color: #6c8d90;
+    color: white;
+    margin: 30px 150px;
+    width: 200px;
+    height: 58px;
+    font-size:15px;
+    box-shadow: 6px 6px 0px #c4dce8;
+}
+
+.best_selling_book_img {
+    width: 600px;
+    height: 600px;
+    margin: 50px 150px 0 0;
+}

@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.section_book_collection {
+    background-color: #f6fbfc;
+    padding-bottom: 40px;
+}
+
+.book_collection {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.my_books {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 50px;
+    font-size: 50px;
+}
+
+.grid_books {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 500px);
+    margin: 0 auto;
+    width: 1200px;
+    background-color: white;
+    justify-items: center;
+    text-align: center;
+}
+
+.img_books {
+    padding-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.current_price {
+    font-size: 20px;
+    color: #105a75;
+    font-weight: bold;
+}
+
+.crossed_price {
+    font-size: 17px;
+    color: #a7d8dd;
+    text-decoration: line-through;
+}
+
+.book_name {
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+.button_collection {
+    text-transform: uppercase;
+    border: none;
+    color: black;
+    background-color: #a8d8dc;
+    white-space: nowrap;
+    width: 150px;
+    height: 50px;
+    margin: 15px 0;
+}

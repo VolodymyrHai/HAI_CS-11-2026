@@ -1,0 +1,34 @@
+.main_hold_still {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.hold_still {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 50px 20px;
+}
+
+.wild_heart {
+    width: 450px;
+    height: 450px;
+    margin: 50px 0 0 50px;
+}
+
+.genre_and_price {
+    font-size: 17px;
+    margin: 20px 50px;
+}
+
+.by_johan {
+    font-size: 15px;
+    margin: 0 50px;
+}
+
+.description_hold_still {
+    width: 375px;
+    margin: 20px 50px;
+    line-height: 1.7;
+}
